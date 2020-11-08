@@ -1,0 +1,807 @@
+{
+    "minecraft": {
+        "minecraft:story/mine_stone": {
+            "name": "Stone Age",
+            "description": "Mine stone",
+            "all": true,
+            "criteria": [
+                "get_stone"
+            ]
+        },
+        "minecraft:story/upgrade_tools": {
+            "name": "Getting an Upgrade",
+            "description": "Craft a stone pickaxe",
+            "all": true,
+            "criteria": [
+                "stone_pickaxe"
+            ]
+        },
+        "minecraft:story/smelt_iron": {
+            "name": "Acquire Hardware",
+            "description": "Smelt an iron ingot",
+            "all": true,
+            "criteria": [
+                "iron"
+            ]
+        },
+        "minecraft:story/obtain_armor": {
+            "name": "Suit Up",
+            "description": "Make iron armor",
+            "all": false,
+            "criteria": [
+                "iron_helmet",
+                "iron_chestplate",
+                "iron_leggings",
+                "iron_boots"
+            ]
+        },
+        "minecraft:story/lava_bucket": {
+            "name": "Hot Stuff",
+            "description": "Fill a bucket with lava",
+            "all": true,
+            "criteria": [
+                "lava_bucket"
+            ]
+        },
+        "minecraft:story/iron_tools": {
+            "name": "Isn't It Iron Pick",
+            "description": "Craft an iron pickaxe",
+            "all": true,
+            "criteria": [
+                "iron_pickaxe"
+            ]
+        },
+        "minecraft:story/deflect_arrow": {
+            "name": "Not Today, Thank You",
+            "description": "Deflect a projectile with a shield",
+            "all": true,
+            "criteria": [
+                "deflected_projectile"
+            ]
+        },
+        "minecraft:story/form_obsidian": {
+            "name": "Ice Bucket Challenge",
+            "description": "Obtain obsidian",
+            "all": true,
+            "criteria": [
+                "obsidian"
+            ]
+        },
+        "minecraft:story/mine_diamond": {
+            "name": "Diamonds!",
+            "description": "Acquire a diamond",
+            "all": true,
+            "criteria": [
+                "diamond"
+            ]
+        },
+        "minecraft:story/enter_the_nether": {
+            "name": "We Need to Go Deeper",
+            "description": "Enter the Nether",
+            "all": true,
+            "criteria": [
+                "entered_nether"
+            ]
+        },
+        "minecraft:story/shiny_gear": {
+            "name": "Cover Me With Diamonds",
+            "description": "Make diamond armor",
+            "all": false,
+            "criteria": [
+                "diamond_helmet",
+                "diamond_chestplate",
+                "diamond_leggings",
+                "diamond_boots"
+            ]
+        },
+        "minecraft:story/enchant_item": {
+            "name": "Enchanter",
+            "description": "Enchant an item",
+            "all": true,
+            "criteria": [
+                "enchanted_item"
+            ]
+        },
+        "minecraft:story/cure_zombie_villager": {
+            "name": "Zombie Doctor",
+            "description": "Cure a zombie villager",
+            "all": true,
+            "criteria": [
+                "cured_zombie"
+            ]
+        },
+        "minecraft:story/follow_ender_eye": {
+            "name": "Eye Spy",
+            "description": "Enter a Stronghold",
+            "all": true,
+            "criteria": [
+                "in_stronghold"
+            ]
+        },
+        "minecraft:story/enter_the_end": {
+            "name": "The End?",
+            "description": "Enter the End",
+            "all": true,
+            "criteria": [
+                "entered_end"
+            ]
+        }
+    },
+    "nether": {
+        "minecraft:nether/return_to_sender": {
+            "name": "Return to Sender",
+            "description": "Destroy a ghast with a fireball",
+            "all": true,
+            "criteria": [
+                "killed_ghast"
+            ]
+        },
+        "minecraft:nether/find_bastion": {
+            "name": "Those Were the Days",
+            "description": "Enter a Bastion",
+            "all": true,
+            "criteria": [
+                "bastion"
+            ]
+        },
+        "minecraft:nether/obtain_ancient_debris": {
+            "name": "Hidden in the Depths",
+            "description": "Obtain ancient debris",
+            "all": true,
+            "criteria": [
+                "ancient_debris"
+            ]
+        },
+        "minecraft:nether/fast_travel": {
+            "name": "Subspace Bubble",
+            "description": "Use the Nether to travel 7 km in the Overworld",
+            "all": true,
+            "criteria": [
+                "travelled"
+            ]
+        },
+        "minecraft:nether/find_fortress": {
+            "name": "A Terrible Fortress",
+            "description": "Enter a Nether Fortress",
+            "all": true,
+            "criteria": [
+                "fortress"
+            ]
+        },
+        "minecraft:nether/obtain_crying_obsidian": {
+            "name": "Who is Cutting Onions?",
+            "description": "Obtain crying obsidian",
+            "all": true,
+            "criteria": [
+                "crying_obsidian"
+            ]
+        },
+        "minecraft:nether/distract_piglin": {
+            "name": "Oh Shiny",
+            "description": "Distract a piglin with gold",
+            "all": false,
+            "criteria": [
+                "distract_piglin",
+                "distract_piglin_directly"
+            ]
+        },
+        "minecraft:nether/ride_strider": {
+            "name": "This Boat Has Legs",
+            "description": "Right-click a warped fungus on a stick while riding a strider",
+            "all": true,
+            "criteria": [
+                "used_warped_fungus_on_a_stick"
+            ]
+        },
+        "minecraft:nether/uneasy_alliance": {
+            "name": "Uneasy Alliance",
+            "description": "Kill a ghast while in the Overworld",
+            "all": true,
+            "criteria": [
+                "killed_ghast"
+            ]
+        },
+        "minecraft:nether/loot_bastion": {
+            "name": "War Pigs",
+            "description": "Loot a chest in a Bastion",
+            "all": false,
+            "criteria": [
+                "loot_bastion_bridge",
+                "loot_bastion_hoglin_stable",
+                "loot_bastion_other",
+                "loot_bastion_treasure"
+            ]
+        },
+        "minecraft:nether/use_lodestone": {
+            "name": "Country Lode, Take Me Home",
+            "description": "Use a compass on lodestone",
+            "all": true,
+            "criteria": [
+                "use_lodestone"
+            ]
+        },
+        "minecraft:nether/netherite_armor": {
+            "name": "Cover Me in Debris",
+            "description": "Make a full set of netherite armor",
+            "all": true,
+            "criteria": [
+                "netherite_armor"
+            ]
+        },
+        "minecraft:nether/get_wither_skull": {
+            "name": "Spooky Scary Skeleton",
+            "description": "Obtain a wither skeleton skull",
+            "all": true,
+            "criteria": [
+                "wither_skull"
+            ]
+        },
+        "minecraft:nether/obtain_blaze_rod": {
+            "name": "Into Fire",
+            "description": "Obtain a blaze rod",
+            "all": true,
+            "criteria": [
+                "blaze_rod"
+            ]
+        },
+        "minecraft:nether/charge_respawn_anchor": {
+            "name": "Not Quite \"Nine\" Lives",
+            "description": "Charge a Respawn Anchor to the max",
+            "all": true,
+            "criteria": [
+                "charge_respawn_anchor"
+            ]
+        },
+        "minecraft:nether/explore_nether": {
+            "name": "Hot Tourist Destinations",
+            "description": "Visit every Nether biome",
+            "all": true,
+            "criteria": [
+                "minecraft:basalt_deltas",
+                "minecraft:crimson_forest",
+                "minecraft:nether_wastes",
+                "minecraft:soul_sand_valley",
+                "minecraft:warped_forest"
+            ]
+        },
+        "minecraft:nether/summon_wither": {
+            "name": "Withering Heights",
+            "description": "Summon the Wither",
+            "all": true,
+            "criteria": [
+                "summoned"
+            ]
+        },
+        "minecraft:nether/brew_potion": {
+            "name": "Local Brewery",
+            "description": "Brew a potion",
+            "all": true,
+            "criteria": [
+                "potion"
+            ]
+        },
+        "minecraft:nether/create_beacon": {
+            "name": "Bring Home the Beacon",
+            "description": "Construct and place a beacon",
+            "all": true,
+            "criteria": [
+                "beacon"
+            ]
+        },
+        "minecraft:nether/all_potions": {
+            "name": "A Furious Cocktail",
+            "description": "Have every potion effect at the same time",
+            "all": true,
+            "criteria": [
+                "all_effects"
+            ]
+        },
+        "minecraft:nether/create_full_beacon": {
+            "name": "Beaconator",
+            "description": "Bring a beacon to full power",
+            "all": true,
+            "criteria": [
+                "beacon"
+            ]
+        },
+        "minecraft:nether/all_effects": {
+            "name": "How Did We Get Here?",
+            "description": "Have every status effect at the same time",
+            "all": true,
+            "criteria": [
+                "all_effects"
+            ]
+        }
+    },
+    "end": {
+        "minecraft:end/kill_dragon": {
+            "name": "Free the End",
+            "description": "Kill the Ender Dragon",
+            "all": true,
+            "criteria": [
+                "killed_dragon"
+            ]
+        },
+        "minecraft:end/dragon_egg": {
+            "name": "The Next Generation",
+            "description": "Hold the Dragon Egg",
+            "all": true,
+            "criteria": [
+                "dragon_egg"
+            ]
+        },
+        "minecraft:end/enter_end_gateway": {
+            "name": "Remote Getaway",
+            "description": "Enter an End Gateway",
+            "all": true,
+            "criteria": [
+                "entered_end_gateway"
+            ]
+        },
+        "minecraft:end/respawn_dragon": {
+            "name": "The End... Again...",
+            "description": "Respawn the Ender Dragon",
+            "all": true,
+            "criteria": [
+                "summoned_dragon"
+            ]
+        },
+        "minecraft:end/dragon_breath": {
+            "name": "You Need a Mint",
+            "description": "Collect dragon's breath in a bottle",
+            "all": true,
+            "criteria": [
+                "dragon_breath"
+            ]
+        },
+        "minecraft:end/find_end_city": {
+            "name": "The City at the End of the Game",
+            "description": "Enter an End City",
+            "all": true,
+            "criteria": [
+                "in_city"
+            ]
+        },
+        "minecraft:end/elytra": {
+            "name": "Sky's the Limit",
+            "description": "Find elytra",
+            "all": true,
+            "criteria": [
+                "elytra"
+            ]
+        },
+        "minecraft:end/levitate": {
+            "name": "Great View From Up Here",
+            "description": "Levitate up 50 blocks",
+            "all": true,
+            "criteria": [
+                "levitated"
+            ]
+        }
+    },
+    "adventure": {
+        "minecraft:adventure/voluntary_exile": {
+            "name": "Voluntary Exile",
+            "description": "Kill a raid captain",
+            "all": true,
+            "criteria": [
+                "voluntary_exile"
+            ]
+        },
+        "minecraft:adventure/kill_a_mob": {
+            "name": "Monster Hunter",
+            "description": "Kill a hostile mob",
+            "all": false,
+            "criteria": [
+                "minecraft:blaze",
+                "minecraft:cave_spider",
+                "minecraft:creeper",
+                "minecraft:drowned",
+                "minecraft:elder_guardian",
+                "minecraft:ender_dragon",
+                "minecraft:enderman",
+                "minecraft:endermite",
+                "minecraft:evoker",
+                "minecraft:ghast",
+                "minecraft:guardian",
+                "minecraft:hoglin",
+                "minecraft:husk",
+                "minecraft:magma_cube",
+                "minecraft:phantom",
+                "minecraft:piglin",
+                "minecraft:pillager",
+                "minecraft:ravager",
+                "minecraft:shulker",
+                "minecraft:silverfish",
+                "minecraft:skeleton",
+                "minecraft:slime",
+                "minecraft:spider",
+                "minecraft:stray",
+                "minecraft:vex",
+                "minecraft:vindicator",
+                "minecraft:witch",
+                "minecraft:wither",
+                "minecraft:wither_skeleton",
+                "minecraft:zoglin",
+                "minecraft:zombie",
+                "minecraft:zombie_villager",
+                "minecraft:zombified_piglin"
+            ]
+        },
+        "minecraft:adventure/trade": {
+            "name": "What a Deal!",
+            "description": "Trade with a villager",
+            "all": true,
+            "criteria": [
+                "traded"
+            ]
+        },
+        "minecraft:adventure/honey_block_slide": {
+            "name": "Sticky Situation",
+            "description": "Slide down a honey block",
+            "all": true,
+            "criteria": [
+                "honey_block_slide"
+            ]
+        },
+        "minecraft:adventure/ol_betsy": {
+            "name": "Ol' Betsy",
+            "description": "Shoot a crossbow",
+            "all": true,
+            "criteria": [
+                "shot_crossbow"
+            ]
+        },
+        "minecraft:adventure/sleep_in_bed": {
+            "name": "Sweet Dreams",
+            "description": "Sleep in a bed",
+            "all": true,
+            "criteria": [
+                "slept_in_bed"
+            ]
+        },
+        "minecraft:adventure/hero_of_the_village": {
+            "name": "Hero of the Village",
+            "description": "Successfully defend a village from a raid",
+            "all": true,
+            "criteria": [
+                "hero_of_the_village"
+            ]
+        },
+        "minecraft:adventure/throw_trident": {
+            "name": "A Throwaway Joke",
+            "description": "Hit an entity with a trident",
+            "all": true,
+            "criteria": [
+                "shot_trident"
+            ]
+        },
+        "minecraft:adventure/shoot_arrow": {
+            "name": "Take Aim",
+            "description": "Shoot an entity with an arrow",
+            "all": true,
+            "criteria": [
+                "shot_arrow"
+            ]
+        },
+        "minecraft:adventure/kill_all_mobs": {
+            "name": "Monsters Hunted",
+            "description": "Kill one of every hostile mob",
+            "all": true,
+            "criteria": [
+                "minecraft:blaze",
+                "minecraft:cave_spider",
+                "minecraft:creeper",
+                "minecraft:drowned",
+                "minecraft:elder_guardian",
+                "minecraft:ender_dragon",
+                "minecraft:enderman",
+                "minecraft:endermite",
+                "minecraft:evoker",
+                "minecraft:ghast",
+                "minecraft:guardian",
+                "minecraft:hoglin",
+                "minecraft:husk",
+                "minecraft:magma_cube",
+                "minecraft:phantom",
+                "minecraft:piglin",
+                "minecraft:pillager",
+                "minecraft:ravager",
+                "minecraft:shulker",
+                "minecraft:silverfish",
+                "minecraft:skeleton",
+                "minecraft:slime",
+                "minecraft:spider",
+                "minecraft:stray",
+                "minecraft:vex",
+                "minecraft:vindicator",
+                "minecraft:witch",
+                "minecraft:wither",
+                "minecraft:wither_skeleton",
+                "minecraft:zoglin",
+                "minecraft:zombie",
+                "minecraft:zombie_villager",
+                "minecraft:zombified_piglin"
+            ]
+        },
+        "minecraft:adventure/totem_of_undying": {
+            "name": "Postmortal",
+            "description": "Activate a Totem of Undying",
+            "all": true,
+            "criteria": [
+                "used_totem"
+            ]
+        },
+        "minecraft:adventure/summon_iron_golem": {
+            "name": "Hired Help",
+            "description": "Summon an iron golem",
+            "all": true,
+            "criteria": [
+                "summoned_golem"
+            ]
+        },
+        "minecraft:adventure/two_birds_one_arrow": {
+            "name": "Two Birds, One Arrow",
+            "description": "Kill two phantoms with a Piercing crossbow",
+            "all": true,
+            "criteria": [
+                "two_birds"
+            ]
+        },
+        "minecraft:adventure/whos_the_pillager_now": {
+            "name": "Who's the Pillager Now?",
+            "description": "Kill a pillager with a crossbow",
+            "all": true,
+            "criteria": [
+                "kill_pillager"
+            ]
+        },
+        "minecraft:adventure/arbalistic": {
+            "name": "Arbalistic",
+            "description": "Kill five unique mobs with one crossbow shot",
+            "all": true,
+            "criteria": [
+                "arbalistic"
+            ]
+        },
+        "minecraft:adventure/adventuring_time": {
+            "name": "Adventuring Time",
+            "description": "Visit every biome",
+            "all": true,
+            "criteria": [
+                "minecraft:badlands",
+                "minecraft:badlands_plateau",
+                "minecraft:bamboo_jungle",
+                "minecraft:bamboo_jungle_hills",
+                "minecraft:beach",
+                "minecraft:birch_forest",
+                "minecraft:birch_forest_hills",
+                "minecraft:cold_ocean",
+                "minecraft:dark_forest",
+                "minecraft:deep_cold_ocean",
+                "minecraft:deep_frozen_ocean",
+                "minecraft:deep_lukewarm_ocean",
+                "minecraft:desert",
+                "minecraft:desert_hills",
+                "minecraft:forest",
+                "minecraft:frozen_river",
+                "minecraft:giant_tree_taiga",
+                "minecraft:giant_tree_taiga_hills",
+                "minecraft:jungle",
+                "minecraft:jungle_edge",
+                "minecraft:jungle_hills",
+                "minecraft:lukewarm_ocean",
+                "minecraft:mountains",
+                "minecraft:mushroom_field_shore",
+                "minecraft:mushroom_fields",
+                "minecraft:plains",
+                "minecraft:river",
+                "minecraft:savanna",
+                "minecraft:savanna_plateau",
+                "minecraft:snowy_beach",
+                "minecraft:snowy_mountains",
+                "minecraft:snowy_taiga",
+                "minecraft:snowy_taiga_hills",
+                "minecraft:snowy_tundra",
+                "minecraft:stone_shore",
+                "minecraft:swamp",
+                "minecraft:taiga",
+                "minecraft:taiga_hills",
+                "minecraft:warm_ocean",
+                "minecraft:wooded_badlands_plateau",
+                "minecraft:wooded_hills",
+                "minecraft:wooded_mountains"
+            ]
+        },
+        "minecraft:adventure/very_very_frightening": {
+            "name": "Very Very Frightening",
+            "description": "Strike a villager with lightning",
+            "all": true,
+            "criteria": [
+                "struck_villager"
+            ]
+        },
+        "minecraft:adventure/sniper_duel": {
+            "name": "Sniper Duel",
+            "description": "Kill a skeleton from at least 50 blocks away",
+            "all": true,
+            "criteria": [
+                "killed_skeleton"
+            ]
+        },
+        "minecraft:adventure/bullseye": {
+            "name": "Bullseye",
+            "description": "Hit the bullseye of a target from at least 30 blocks away",
+            "all": true,
+            "criteria": [
+                "bullseye"
+            ]
+        }
+    },
+    "husbandry": {
+        "minecraft:husbandry/safely_harvest_honey": {
+            "name": "Bee Our Guest",
+            "description": "Collect honey from a beehive/nest without angering the bees inside",
+            "all": true,
+            "criteria": [
+                "safely_harvest_honey"
+            ]
+        },
+        "minecraft:husbandry/breed_an_animal": {
+            "name": "The Parrots and the Bats",
+            "description": "Breed two animals",
+            "all": true,
+            "criteria": [
+                "bred"
+            ]
+        },
+        "minecraft:husbandry/tame_an_animal": {
+            "name": "Best Friends Forever",
+            "description": "Tame an animal",
+            "all": true,
+            "criteria": [
+                "tamed_animal"
+            ]
+        },
+        "minecraft:husbandry/fishy_business": {
+            "name": "Fishy Business",
+            "description": "Catch a fish",
+            "all": false,
+            "criteria": [
+                "cod",
+                "pufferfish",
+                "salmon",
+                "tropical_fish"
+            ]
+        },
+        "minecraft:husbandry/silk_touch_nest": {
+            "name": "Total Beelocation",
+            "description": "Silk Touch a bee nest with 3 bees inside",
+            "all": true,
+            "criteria": [
+                "silk_touch_nest"
+            ]
+        },
+        "minecraft:husbandry/plant_seed": {
+            "name": "A Seedy Place",
+            "description": "Plant a seed",
+            "all": false,
+            "criteria": [
+                "beetroots",
+                "melon_stem",
+                "nether_wart",
+                "pumpkin_stem",
+                "wheat"
+            ]
+        },
+        "minecraft:husbandry/bred_all_animals": {
+            "name": "Two by Two",
+            "description": "Breed all animals",
+            "all": true,
+            "criteria": [
+                "minecraft:bee",
+                "minecraft:cat",
+                "minecraft:chicken",
+                "minecraft:cow",
+                "minecraft:donkey",
+                "minecraft:fox",
+                "minecraft:hoglin",
+                "minecraft:horse",
+                "minecraft:llama",
+                "minecraft:mooshroom",
+                "minecraft:mule",
+                "minecraft:ocelot",
+                "minecraft:panda",
+                "minecraft:pig",
+                "minecraft:rabbit",
+                "minecraft:sheep",
+                "minecraft:strider",
+                "minecraft:turtle",
+                "minecraft:wolf"
+            ]
+        },
+        "minecraft:husbandry/complete_catalogue": {
+            "name": "A Complete Catalogue",
+            "description": "Tame all cat variants",
+            "all": true,
+            "criteria": [
+                "textures/entity/cat/all_black.png",
+                "textures/entity/cat/black.png",
+                "textures/entity/cat/british_shorthair.png",
+                "textures/entity/cat/calico.png",
+                "textures/entity/cat/jellie.png",
+                "textures/entity/cat/persian.png",
+                "textures/entity/cat/ragdoll.png",
+                "textures/entity/cat/red.png",
+                "textures/entity/cat/siamese.png",
+                "textures/entity/cat/tabby.png",
+                "textures/entity/cat/white.png"
+            ]
+        },
+        "minecraft:husbandry/tactical_fishing": {
+            "name": "Tactical Fishing",
+            "description": "Catch a fish in a bucket",
+            "all": false,
+            "criteria": [
+                "cod_bucket",
+                "pufferfish_bucket",
+                "salmon_bucket",
+                "tropical_fish_bucket"
+            ]
+        },
+        "minecraft:husbandry/balanced_diet": {
+            "name": "A Balanced Diet",
+            "description": "Eat everything that is edible",
+            "all": true,
+            "criteria": [
+                "apple",
+                "baked_potato",
+                "beef",
+                "beetroot",
+                "beetroot_soup",
+                "bread",
+                "carrot",
+                "chicken",
+                "chorus_fruit",
+                "cod",
+                "cooked_beef",
+                "cooked_chicken",
+                "cooked_cod",
+                "cooked_mutton",
+                "cooked_porkchop",
+                "cooked_rabbit",
+                "cooked_salmon",
+                "cookie",
+                "dried_kelp",
+                "enchanted_golden_apple",
+                "golden_apple",
+                "golden_carrot",
+                "honey_bottle",
+                "melon_slice",
+                "mushroom_stew",
+                "mutton",
+                "poisonous_potato",
+                "porkchop",
+                "potato",
+                "pufferfish",
+                "pumpkin_pie",
+                "rabbit",
+                "rabbit_stew",
+                "rotten_flesh",
+                "salmon",
+                "spider_eye",
+                "suspicious_stew",
+                "sweet_berries",
+                "tropical_fish"
+            ]
+        },
+        "minecraft:husbandry/obtain_netherite_hoe": {
+            "name": "Serious Dedication",
+            "description": "Obtain a netherite hoe",
+            "all": true,
+            "criteria": [
+                "netherite_hoe"
+            ]
+        }
+    }
+}
