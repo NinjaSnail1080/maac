@@ -22,7 +22,7 @@ There are 5 tabs: Minecraft, Nether, The End, Adventure, and Husbandry, which co
 
 Mouseover each advancment to display a tooltip that will explain its requirements. Click on it to expand a list of all the criteria that you must meet to achieve that advancment. Most only have one criterion.
 
-If the criteria have checkboxes (☐/☑) next to them, then you must meet all of the criteria to complete the advancment. For instance, this is the case for `Monsters Hunted` (kill all hostile mobs) and `Adventuring Time` (visit every biome). If they have radio buttons instead (○/⦿), you only need to meet one of the criteria, which is the case for `Suit Up` (make any piece of iron armor) and `Fishy Business` (catch any type of fish).
+If the criteria have checkboxes (`☐`/`☑`) next to them, then you must meet all of the criteria to complete the advancment. For instance, this is the case for `Monsters Hunted` (kill all hostile mobs) and `Adventuring Time` (visit every biome). If they have radio buttons instead (`○`/`⦿`), you only need to meet one of the criteria, which is the case for `Suit Up` (make any piece of iron armor) and `Fishy Business` (catch any type of fish).
 
 The advancements checklist does not update in real time because the game only updates the advancements file when it saves. It will update every 5 minutes on autosaves, every time you open the pause menu, and when you go through the exit portal in the End.
 
