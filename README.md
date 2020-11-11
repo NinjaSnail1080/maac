@@ -26,7 +26,7 @@ If the criteria have checkboxes (`☐`/`☑`) next to them, then you must meet a
 
 The advancements checklist does not update in real time because the game only updates the advancements file when it saves. It will update every 5 minutes on autosaves, every time you open the pause menu, and when you go through the exit portal in the End.
 
-If the checklist doesn't update when you make a new world, then there are two possibilities. One is that you migrated your Minecraft directory, but the old one still exists and that's where the program is reading from. Change your directory to the correct one by clicking on the folder icon in the top-right corner.
+If the checklist doesn't update when you make a new world, then it's possible that you migrated your Minecraft directory, but the old one still exists and that's where the program is reading from. Change your directory to the correct one by clicking on the folder icon in the top-right corner.
 
 If you're playing in 1.16.2+, the Piglin Brute won't appear in the criteria list for `Monster Hunter` or `Monsters Hunted`, but you will have to kill one to get the latter advancment.
 
